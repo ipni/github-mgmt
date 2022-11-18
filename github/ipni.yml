@@ -1,105 +1,16 @@
 # yaml-language-server: $schema=.schema.json
 
-members:
-  admin:
-    - davidd8
-    - galargh
-    - jacobheun
-    - jbenet
-    - masih
-    - momack2
-    - willscott
-  member:
-    - gammazero
-    - honghaoq
-    - ischasny
-    - laurentsenta
-    - sti-bot
-    - torfinnolsen
-    - web3-bot
 
 repositories:
-  github-mgmt:
-    archived: false
+  github-mgmt: {}
+  heyfil:
     branch_protection:
-      master:
-        allows_deletions: false
-        allows_force_pushes: false
-        enforce_admins: false
-        require_conversation_resolution: false
-        require_signed_commits: false
-        required_linear_history: false
+      main:
         required_pull_request_reviews:
           dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - MDQ6VXNlcjMwMTg1NQ==
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-        required_status_checks:
-          contexts:
-            - Comment
-          strict: true
-    default_branch: master
-    teams:
-      maintain:
-        - ipdx
-      push:
-        - github-mgmt
-    topics:
-      - ipdx
-      - management
-    visibility: public
-
-teams:
-  admin:
-    description: Admin Access to all repositories.
-    members:
-      member:
-        - davidd8
-        - galargh
-        - jacobheun
-        - masih
-        - willscott
-    privacy: closed
-  ci:
-    description: Continuous integration non-humans.
-    members:
-      member:
-        - sti-bot
-        - web3-bot
-    privacy: closed
-  contributors:
-    description: Active contributors to the organisation.
-    members:
-      member:
-        - davidd8
-        - galargh
-        - gammazero
-        - honghaoq
-        - ischasny
-        - jacobheun
-        - laurentsenta
-        - masih
-        - torfinnolsen
-        - willscott
-    privacy: closed
-  ipdx:
-    create_default_maintainer: false
-    members:
-      member:
-        - galargh
-        - laurentsenta
-    privacy: closed
-  github-mgmt:
-    create_default_maintainer: false
-    members:
-      maintainer:
-        - davidd8
-        - galargh
-        - gammazero
-        - honghaoq
-        - ischasny
-        - jacobheun
-        - laurentsenta
-        - masih
-        - torfinnolsen
-        - willscott
+  specs: {}
