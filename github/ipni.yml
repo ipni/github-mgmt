@@ -1,10 +1,35 @@
 # yaml-language-server: $schema=.schema.json
 
-
+members:
+  admin:
+    - davidd8
+    - galargh
+    - jacobheun
+    - masih
+    - willscott
+  member:
+    - gammazero
+    - honghaoq
+    - ischasny
+    - sti-bot
+    - TorfinnOlsen
+    - web3-bot
 repositories:
   cid.contact:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
     branch_protection:
       main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
@@ -14,9 +39,35 @@ repositories:
           contexts:
             - build
           strict: true
+    default_branch: main
+    delete_branch_on_merge: true
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    pages:
+      cname: web-ipni.cid.contact
+      source:
+        branch: main
+        path: /
+    visibility: public
+    vulnerability_alerts: true
   github-mgmt:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
     branch_protection:
       master:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
@@ -26,12 +77,129 @@ repositories:
           contexts:
             - Comment
           strict: true
+    default_branch: master
+    delete_branch_on_merge: false
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    teams:
+      maintain:
+        - ipdx
+      push:
+        - github-mgmt
+    template:
+      owner: protocol
+      repository: github-mgmt-template
+    visibility: public
+    vulnerability_alerts: false
   heyfil:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
     branch_protection:
       main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
         required_pull_request_reviews:
           dismiss_stale_reviews: false
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-  specs: {}
+    default_branch: main
+    delete_branch_on_merge: true
+    description: ":wave: Howdy from IPNI to Filecoin"
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
+    topics:
+      - announcer
+      - diagnostics
+      - filecoin
+      - ipni
+    visibility: public
+    vulnerability_alerts: false
+  specs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Technical Specification of IPNI Protocols
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: false
+teams:
+  admin:
+    description: Admin Access to all repositories.
+    members:
+      maintainer:
+        - davidd8
+        - galargh
+        - jacobheun
+        - masih
+        - willscott
+    privacy: closed
+  ci:
+    description: Continuous integration non-humans.
+    members:
+      member:
+        - sti-bot
+        - web3-bot
+    privacy: closed
+  contributors:
+    description: Active contributors to the organisation.
+    members:
+      maintainer:
+        - davidd8
+        - galargh
+        - jacobheun
+        - masih
+        - willscott
+      member:
+        - gammazero
+        - honghaoq
+        - ischasny
+        - TorfinnOlsen
+    privacy: closed
+  github-mgmt:
+    members:
+      maintainer:
+        - davidd8
+        - galargh
+        - gammazero
+        - honghaoq
+        - ischasny
+        - jacobheun
+        - masih
+        - TorfinnOlsen
+        - willscott
+    privacy: secret
+  ipdx:
+    members:
+      maintainer:
+        - galargh
+    privacy: closed
