@@ -151,6 +151,7 @@ export class State {
 
   async sync(resources: [Id, Resource][]) {
     const oldResources = this.getAllResources()
+    console.log(oldResources, resources)
     for (const resource of oldResources) {
       if (
         !resources.some(
