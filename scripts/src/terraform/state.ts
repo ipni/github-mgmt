@@ -73,6 +73,7 @@ export class State {
   }
 
   private setState(source: string) {
+    console.log(source);
     const state = JSON.parse(source, (_k, v) => v ?? undefined)
     if (state.values?.root_module?.resources !== undefined) {
       state.values.root_module.resources = state.values.root_module.resources
@@ -151,7 +152,6 @@ export class State {
 
   async sync(resources: [Id, Resource][]) {
     const oldResources = this.getAllResources()
-    console.log(oldResources, resources)
     for (const resource of oldResources) {
       if (
         !resources.some(
