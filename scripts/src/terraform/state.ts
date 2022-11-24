@@ -9,8 +9,9 @@ import * as cli from '@actions/exec'
 import * as fs from 'fs'
 import * as core from '@actions/core'
 import * as HCL from 'hcl2-parser'
+import * as thisModule from './state'
 
-async function loadState() {
+export async function loadState() {
   let source = ''
   if (env.TF_EXEC === 'true') {
     core.info('Loading state from Terraform state file')
@@ -33,7 +34,7 @@ async function loadState() {
 
 export class State {
   static async New() {
-    return new State(await loadState())
+    return new State(await thisModule.loadState())
   }
 
   private _ignoredProperties: Record<string, string[]> = {}
@@ -76,7 +77,7 @@ export class State {
     if (state.values?.root_module?.resources !== undefined) {
       state.values.root_module.resources = state.values.root_module.resources
         .filter((r: any) => r.mode === 'managed')
-        .filter((r: any) => !this._ignoredTypes.includes(r.type))
+        // .filter((r: any) => !this._ignoredTypes.includes(r.type))
         .map((r: any) => {
           // TODO: remove nested values
           r.values = Object.fromEntries(
@@ -106,7 +107,7 @@ export class State {
         cwd: env.TF_WORKING_DIR
       })
     }
-    this.setState(await loadState())
+    this.setState(await thisModule.loadState())
   }
 
   getAllResources(): Resource[] {
@@ -124,6 +125,12 @@ export class State {
     } else {
       throw new Error(`${resourceClass.name} is not supported`)
     }
+  }
+
+  isIgnored<T extends Resource>(
+    resourceClass: ResourceConstructor<T>
+  ): boolean {
+    return this._ignoredTypes.includes(resourceClass.StateType)
   }
 
   async addResource(id: Id, resource: Resource) {
