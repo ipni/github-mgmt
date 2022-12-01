@@ -1,12 +1,4 @@
 import 'reflect-metadata'
+import {format} from './shared/format'
 
-/*
-Put `github/*.yml` transform rules that you want executed during `Fix` workflow runs here.
-
-*Example*
-```ts
-import {protectDefaultBranches} from './shared/protect-default-branches'
-
-protectDefaultBranches()
-```
-*/
+format()
