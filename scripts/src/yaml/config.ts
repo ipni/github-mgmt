@@ -36,20 +36,6 @@ export class Config {
     const schema = this.get()
     const resources = this.getAllResources()
     const resourcePaths = resources.map(r => r.getSchemaPath(schema).join('.'))
-    YAML.visit(this._document, {
-      Map(_, {items}) {
-        items.sort(
-          (a: YAML.Pair<unknown, unknown>, b: YAML.Pair<unknown, unknown>) => {
-            return JSON.stringify(a.key).localeCompare(JSON.stringify(b.key))
-          }
-        )
-      },
-      Seq(_, {items}) {
-        items.sort((a: unknown, b: unknown) => {
-          return JSON.stringify(a).localeCompare(JSON.stringify(b))
-        })
-      }
-    })
     let again = true
     while (again) {
       again = false
@@ -80,6 +66,20 @@ export class Config {
         }
       })
     }
+    YAML.visit(this._document, {
+      Map(_, {items}) {
+        items.sort(
+          (a: YAML.Pair<unknown, unknown>, b: YAML.Pair<unknown, unknown>) => {
+            return JSON.stringify(a.key).localeCompare(JSON.stringify(b.key))
+          }
+        )
+      },
+      Seq(_, {items}) {
+        items.sort((a: unknown, b: unknown) => {
+          return JSON.stringify(a).localeCompare(JSON.stringify(b))
+        })
+      }
+    })
   }
 
   toString(): string {
