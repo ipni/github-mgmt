@@ -52,19 +52,14 @@ export class Config {
             .map((p: any) => p.key.toString())
             .join('.')
           if (!resourcePaths.includes(resourcePath)) {
-            if (
-              YAML.isScalar(node.value) &&
+            const isEmpty = node.value === null || node.value === undefined
+            const isEmptyScalar = YAML.isScalar(node.value) &&
               (node.value.value === undefined ||
                 node.value.value === null ||
                 node.value.value === '')
-            ) {
-              again = true
-              return YAML.visit.REMOVE
-            }
-            if (
-              YAML.isCollection(node.value) &&
+            const isEmptyCollection = YAML.isCollection(node.value) &&
               node.value.items.length === 0
-            ) {
+            if (isEmpty || isEmptyScalar || isEmptyCollection) {
               again = true
               return YAML.visit.REMOVE
             }
