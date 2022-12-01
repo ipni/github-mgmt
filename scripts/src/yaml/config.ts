@@ -134,6 +134,11 @@ export class Config {
     const newValue = resourceToPlain(resource)
     const oldValue = resourceToPlain(oldResource)
     const diffs = diff(oldValue, newValue)
+    if (oldResource?.getStateAddress() === 'github_repository.this["index-observer"]') {
+      console.log(oldValue)
+      console.log(newValue)
+      console.log(diffs)
+    }
     for (const d of diffs || []) {
       if (d.kind === 'N') {
         this._document.addIn(
