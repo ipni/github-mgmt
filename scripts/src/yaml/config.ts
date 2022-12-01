@@ -40,6 +40,12 @@ export class Config {
     while (again) {
       again = false
       YAML.visit(this._document, {
+        Scalar(_, node) {
+          if (node.value === undefined || node.value === null) {
+            again = true
+            return YAML.visit.REMOVE
+          }
+        },
         Pair(_, node, path) {
           const resourcePath = [...path, node]
             .filter((p: any) => YAML.isPair(p))
