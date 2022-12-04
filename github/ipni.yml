@@ -11,6 +11,7 @@ members:
     - gammazero
     - honghaoq
     - ischasny
+    - jennijuju
     - sti-bot
     - TorfinnOlsen
     - web3-bot
@@ -99,6 +100,36 @@ repositories:
       repository: github-mgmt-template
     visibility: public
     vulnerability_alerts: false
+  go-indexer-core:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Core go datastructure of a cid index
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
   heyfil:
     allow_auto_merge: false
     allow_merge_commit: true
@@ -176,6 +207,36 @@ repositories:
         - contributors
     visibility: public
     vulnerability_alerts: true
+  index-provider:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: 📢 Index Provider
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
   indexstar:
     allow_auto_merge: false
     allow_merge_commit: true
@@ -241,6 +302,57 @@ repositories:
     is_template: false
     visibility: public
     vulnerability_alerts: false
+  storetheindex-docs:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: Filecoin Network Indexer Documentation
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
+  storetheindex:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: true
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          pull_request_bypassers:
+            - MDQ6VXNlcjExNzkwNzg5
+            - MDQ6VXNlcjMwMTg1NQ==
+            - MDQ6VXNlcjMxODU3MDQy
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: A directory of CIDs
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
 teams:
   admin:
     description: Admin Access to all repositories.
@@ -272,6 +384,7 @@ teams:
         - gammazero
         - honghaoq
         - ischasny
+        - jennijuju
         - TorfinnOlsen
     privacy: closed
   github-mgmt:
