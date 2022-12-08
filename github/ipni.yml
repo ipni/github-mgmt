@@ -208,8 +208,9 @@ repositories:
     has_wiki: true
     is_template: false
     teams:
-      pull:
+      admin:
         - admin
+      push:
         - ci
         - contributors
     visibility: public
@@ -242,6 +243,12 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   indexstar:
@@ -266,15 +273,16 @@ repositories:
           restrict_dismissals: false
     default_branch: main
     delete_branch_on_merge: true
-    description: "⭐️ A load splitter for storetheindex :star:"
+    description: ":star:️ A load splitter for storetheindex :star:"
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
     teams:
-      pull:
+      admin:
         - admin
+      push:
         - ci
         - contributors
     visibility: public
@@ -307,6 +315,12 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: false
   storetheindex-docs:
@@ -358,6 +372,12 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
 teams:
