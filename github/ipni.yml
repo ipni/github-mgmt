@@ -85,7 +85,7 @@ repositories:
             - Comment
           strict: true
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     has_downloads: true
     has_issues: true
     has_projects: true
@@ -100,7 +100,7 @@ repositories:
       owner: protocol
       repository: github-mgmt-template
     visibility: public
-    vulnerability_alerts: false
+    vulnerability_alerts: true
   go-indexer-core:
     allow_auto_merge: false
     allow_merge_commit: true
@@ -182,6 +182,10 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    pages:
+      source:
+        branch: main
+        path: /
     teams:
       admin:
         - admin
@@ -194,7 +198,7 @@ repositories:
       - filecoin
       - ipni
     visibility: public
-    vulnerability_alerts: false
+    vulnerability_alerts: true
   index-observer:
     allow_auto_merge: false
     allow_merge_commit: true
@@ -325,7 +329,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Technical Specification of IPNI Protocols
     has_downloads: true
     has_issues: true
@@ -339,7 +343,7 @@ repositories:
         - ci
         - contributors
     visibility: public
-    vulnerability_alerts: false
+    vulnerability_alerts: true
   storetheindex-docs:
     allow_auto_merge: false
     allow_merge_commit: true
