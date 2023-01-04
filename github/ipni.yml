@@ -152,6 +152,9 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      push:
+        - ci
     visibility: public
     vulnerability_alerts: true
   heyfil:
