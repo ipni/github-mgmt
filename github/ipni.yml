@@ -75,6 +75,12 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   github-mgmt:
