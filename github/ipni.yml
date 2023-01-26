@@ -24,14 +24,36 @@ repositories:
     allow_squash_merge: true
     archived: false
     auto_init: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        enforce_admins: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: ":knot: Cascades lookups to the IPFS Kademlia DHT"
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
+    topics:
+      - dht
+      - lookup
     visibility: public
     vulnerability_alerts: true
   cid.contact:
