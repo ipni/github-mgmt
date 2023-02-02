@@ -99,6 +99,27 @@ repositories:
       - web
     visibility: public
     vulnerability_alerts: true
+  depute:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: ":tophat: a gRPC service to advertise content onto IPNI"
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    topics:
+      - experimental
+      - grpc
+      - provider
+    visibility: public
+    vulnerability_alerts: true
   dhstore:
     allow_auto_merge: false
     allow_merge_commit: true
