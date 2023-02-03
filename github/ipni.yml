@@ -535,6 +535,7 @@ teams:
         - willscott
     privacy: closed
   Alumni:
+    create_default_maintainer: false
     privacy: closed
   ci:
     description: Continuous integration non-humans.
