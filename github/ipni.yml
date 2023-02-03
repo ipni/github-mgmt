@@ -534,6 +534,8 @@ teams:
         - masih
         - willscott
     privacy: closed
+  Alumni:
+    privacy: closed
   ci:
     description: Continuous integration non-humans.
     members:
