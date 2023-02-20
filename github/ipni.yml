@@ -16,6 +16,7 @@ members:
     - sti-bot
     - TorfinnOlsen
     - web3-bot
+    - LexLuthr
 repositories:
   caskadht:
     allow_auto_merge: false
