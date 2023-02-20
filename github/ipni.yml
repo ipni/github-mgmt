@@ -559,8 +559,8 @@ teams:
         - honghaoq
         - ischasny
         - jennijuju
-        - TorfinnOlsen
         - LexLuthr
+        - TorfinnOlsen
     privacy: closed
   github-mgmt:
     members:
@@ -571,10 +571,10 @@ teams:
         - honghaoq
         - ischasny
         - jacobheun
+        - LexLuthr
         - masih
         - TorfinnOlsen
         - willscott
-        - LexLuthr
     privacy: secret
   ipdx:
     members:
