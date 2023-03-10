@@ -162,23 +162,17 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
-    delete_branch_on_merge: true
-    description: "Service to find double hashed indexed records"
+    delete_branch_on_merge: false
+    description: Facade for lookups to dhstore that performs hashing and decryption
+      on behalf of the client
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
     teams:
-      admin:
-        - admin
       push:
         - ci
-        - contributors
-    topics:
-      - double-hashing
-      - privacy
-      - store
     visibility: public
     vulnerability_alerts: true
   dhstore:
@@ -283,7 +277,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Core go datastructure of a cid index
     has_downloads: true
     has_issues: true
@@ -319,7 +313,7 @@ repositories:
           required_approving_review_count: 1
           restrict_dismissals: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: Go implementation of IPNI Naming As Advertisement Protocol
     has_downloads: true
     has_issues: true
@@ -503,6 +497,23 @@ repositories:
     template:
       owner: protocol
       repository: docs-starter
+    visibility: public
+    vulnerability_alerts: true
+  lookout:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: On the lookout for IPNI lookup coverage
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
     visibility: public
     vulnerability_alerts: true
   specs:
