@@ -535,8 +535,8 @@ repositories:
         - contributors
     topics:
       - diagnostics
-      - lookup
       - ipni
+      - lookup
     visibility: public
     vulnerability_alerts: true
   specs:
