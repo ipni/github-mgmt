@@ -54,6 +54,7 @@ repositories:
         - ci
         - contributors
     topics:
+      - cascade
       - dht
       - lookup
     visibility: public
@@ -93,7 +94,8 @@ repositories:
         - ci
         - contributors
     topics:
-      - dht
+      - bitswap
+      - cascade
       - lookup
     visibility: public
     vulnerability_alerts: true
