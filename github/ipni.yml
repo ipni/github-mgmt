@@ -366,6 +366,7 @@ repositories:
         - admin
       push:
         - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   go-naam:
