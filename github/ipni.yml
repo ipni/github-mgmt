@@ -19,6 +19,23 @@ members:
     - TorfinnOlsen
     - web3-bot
 repositories:
+  .github:
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: false
+    description: ":octocat: GitHub Org Readme"
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    visibility: public
+    vulnerability_alerts: true
   caskadht:
     allow_auto_merge: false
     allow_merge_commit: true
