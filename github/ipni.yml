@@ -20,17 +20,21 @@ members:
     - web3-bot
 repositories:
   .github:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -42,11 +46,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":octocat: GitHub Org Readme"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -60,17 +71,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   caskadht:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -82,11 +97,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":knot: Cascades lookups to the IPFS Kademlia DHT"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -100,17 +122,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   cassette:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -122,11 +148,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":vhs: Cascades lookups over legacy routing systems"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -140,17 +173,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   cid.contact:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: true
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -166,34 +203,45 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: cid.contact Web UI
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     homepage_url: https://cid.contact
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
     pages:
       cname: web-ipni.cid.contact
       source:
         branch: main
         path: /
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     topics:
       - ui
       - web
     visibility: public
     vulnerability_alerts: true
   depute:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -205,11 +253,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":tophat: a gRPC service to advertise content onto IPNI"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -223,17 +278,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   dhfind:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -246,11 +305,18 @@ repositories:
     delete_branch_on_merge: true
     description: Facade for lookups to dhstore that performs hashing and decryption
       on behalf of the client
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - ci
@@ -258,17 +324,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   dhstore:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -280,11 +350,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":lock_with_ink_pen: Service to store double hashed indexed records"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -298,17 +375,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   github-mgmt:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       master:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -323,11 +404,18 @@ repositories:
           strict: true
     default_branch: master
     delete_branch_on_merge: true
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       maintain:
         - ipdx
@@ -339,17 +427,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   go-indexer-core:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -361,11 +453,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Core go datastructure of a cid index
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -375,17 +474,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   go-libipni:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -397,11 +500,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: IPNI library implementation in Go
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -411,17 +521,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   go-naam:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -433,28 +547,39 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: Go implementation of IPNI Naming As Advertisement Protocol
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       push:
         - ci
     visibility: public
     vulnerability_alerts: true
   heyfil:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -466,15 +591,22 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":wave: Howdy from IPNI to Filecoin"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_BODY
+    merge_commit_title: PR_TITLE
     pages:
       source:
         branch: main
         path: /
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: PR_TITLE
     teams:
       admin:
         - admin
@@ -489,17 +621,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   index-observer:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -512,11 +648,18 @@ repositories:
     delete_branch_on_merge: true
     description: "An observability tool for storetheindex content routing systems &
       providers"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -526,17 +669,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   index-provider:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -548,11 +695,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: 📢 Index Provider
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -562,17 +716,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   indexstar:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -584,11 +742,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":star:️ A load splitter for storetheindex :star:"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -598,17 +763,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   ipni-cli:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -622,11 +791,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":computer: CLI tool for all things IPNI"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -640,37 +816,50 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   ipni.io:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
     description: ipni.io docs site repo
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     template:
       owner: protocol
       repository: docs-starter
     visibility: public
     vulnerability_alerts: true
   lookout:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -682,11 +871,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":telescope: On the lookout for lookup quality"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -700,17 +896,21 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   specs:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: false
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -722,11 +922,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":book: Technical Specification of IPNI Protocols"
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
@@ -740,34 +947,47 @@ repositories:
     visibility: public
     vulnerability_alerts: true
   storetheindex-docs:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     default_branch: main
     delete_branch_on_merge: false
     description: Filecoin Network Indexer Documentation
+    has_discussions: false
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     visibility: public
     vulnerability_alerts: true
   storetheindex:
+    advanced_security: false
     allow_auto_merge: false
     allow_merge_commit: true
     allow_rebase_merge: true
     allow_squash_merge: true
+    allow_update_branch: false
     archived: false
     auto_init: false
     branch_protection:
       main:
         allows_deletions: false
         allows_force_pushes: false
+        blocks_creations: false
         enforce_admins: true
+        lock_branch: false
         require_conversation_resolution: false
         require_signed_commits: false
         required_linear_history: false
@@ -783,11 +1003,18 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: A directory of CIDs
+    has_discussions: true
     has_downloads: true
     has_issues: true
     has_projects: true
     has_wiki: true
     is_template: false
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
     teams:
       admin:
         - admin
