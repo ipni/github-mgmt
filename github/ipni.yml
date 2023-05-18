@@ -52,6 +52,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -103,6 +131,39 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      P1:
+        color: "213652"
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -154,6 +215,37 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -210,6 +302,37 @@ repositories:
     has_wiki: true
     homepage_url: https://cid.contact
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     pages:
@@ -259,6 +382,37 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -311,6 +465,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -356,6 +538,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -410,6 +620,37 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -459,6 +700,36 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      P1:
+        color: e99695
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -506,6 +777,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -553,6 +852,37 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -597,6 +927,37 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_BODY
     merge_commit_title: PR_TITLE
     pages:
@@ -654,6 +1015,41 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      cd:
+        color: A9CAEE
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      env:dev:
+        color: F15904
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      infra:
+        color: D77D99
+        description: Infrastructure
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -701,6 +1097,43 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      P0:
+        color: D46C6A
+      p1:
+        color: "0E2852"
+      P3:
+        color: 86BF9B
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -748,6 +1181,40 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      P0:
+        color: D44C1D
+      P1:
+        color: F4E010
+      P2:
+        color: 397DAF
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -797,6 +1264,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -833,6 +1328,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -877,6 +1400,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -928,6 +1479,36 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      P2:
+        color: 7D28E5
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -964,6 +1545,34 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
@@ -1009,6 +1618,83 @@ repositories:
     has_projects: true
     has_wiki: true
     is_template: false
+    labels:
+      advanced:
+        color: d93f0b
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      cd:
+        color: 70F360
+        description: Continuous Delivery
+      cogs:
+        color: E050DF
+      Data Onboarding:
+        color: d4c5f9
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      env:dev:
+        color: D1EFF5
+        description: Dev environment
+      env:prod:
+        color: E8F929
+        description: Production environment
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      infra:
+        color: AB1D39
+      intermediate:
+        color: "5319e7"
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      low priority:
+        color: e99695
+        description: Not critical, non-blocking
+      metrics:
+        color: 0052cc
+        description: Observability issues
+      optimization:
+        color: 006b75
+      P0:
+        color: F02553
+      P1:
+        color: F7DB41
+      P3:
+        color: "821093"
+      Partnership:
+        color: 006b75
+      planning:
+        color: B96FCF
+      question:
+        color: d876e3
+        description: Further information is requested
+      research:
+        color: 47DFD3
+      resilient ingest:
+        color: 006b75
+      scaling:
+        color: c5def5
+      starmaps:
+        color: c2e0c6
+        description: PLN roadmapping label
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
     merge_commit_message: PR_TITLE
     merge_commit_title: MERGE_MESSAGE
     secret_scanning_push_protection: false
