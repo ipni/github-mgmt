@@ -4,7 +4,6 @@ members:
   admin:
     - davidd8
     - galargh
-    - jacobheun
     - LaurenSpiegel
     - masih
     - willscott
@@ -1719,7 +1718,6 @@ teams:
       maintainer:
         - davidd8
         - galargh
-        - jacobheun
         - masih
         - willscott
     privacy: closed
@@ -1739,7 +1737,6 @@ teams:
       maintainer:
         - davidd8
         - galargh
-        - jacobheun
         - masih
         - willscott
       member:
@@ -1761,7 +1758,6 @@ teams:
         - gammazero
         - honghaoq
         - ischasny
-        - jacobheun
         - kylehuntsman
         - LexLuthr
         - masih
