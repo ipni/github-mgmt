@@ -12,6 +12,7 @@ members:
     - hannahhoward
     - honghaoq
     - ischasny
+    - jacobheun
     - jennijuju
     - johnnymatthews
     - kylehuntsman
@@ -1724,6 +1725,9 @@ teams:
   Alumni:
     create_default_maintainer: false
     privacy: closed
+    members:
+      member:
+        - jacobheun
   ci:
     description: Continuous integration non-humans.
     members:
