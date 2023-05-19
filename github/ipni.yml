@@ -4,7 +4,6 @@ members:
   admin:
     - davidd8
     - galargh
-    - jacobheun
     - LaurenSpiegel
     - masih
     - willscott
@@ -13,6 +12,7 @@ members:
     - hannahhoward
     - honghaoq
     - ischasny
+    - jacobheun
     - jennijuju
     - johnnymatthews
     - kylehuntsman
@@ -1719,12 +1719,14 @@ teams:
       maintainer:
         - davidd8
         - galargh
-        - jacobheun
         - masih
         - willscott
     privacy: closed
   Alumni:
     create_default_maintainer: false
+    members:
+      member:
+        - jacobheun
     privacy: closed
   ci:
     description: Continuous integration non-humans.
@@ -1739,7 +1741,6 @@ teams:
       maintainer:
         - davidd8
         - galargh
-        - jacobheun
         - masih
         - willscott
       member:
@@ -1761,7 +1762,6 @@ teams:
         - gammazero
         - honghaoq
         - ischasny
-        - jacobheun
         - kylehuntsman
         - LexLuthr
         - masih
