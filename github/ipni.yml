@@ -10,11 +10,14 @@ members:
     - willscott
   member:
     - gammazero
+    - hannahhoward
     - honghaoq
     - ischasny
     - jennijuju
     - johnnymatthews
+    - kylehuntsman
     - LexLuthr
+    - rvagg
     - sti-bot
     - TorfinnOlsen
     - web3-bot
@@ -1741,10 +1744,13 @@ teams:
         - willscott
       member:
         - gammazero
+        - hannahhoward
         - honghaoq
         - ischasny
         - jennijuju
+        - kylehuntsman
         - LexLuthr
+        - rvagg
         - TorfinnOlsen
     privacy: closed
   github-mgmt:
@@ -1756,6 +1762,7 @@ teams:
         - honghaoq
         - ischasny
         - jacobheun
+        - kylehuntsman
         - LexLuthr
         - masih
         - TorfinnOlsen
