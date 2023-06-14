@@ -127,6 +127,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":knot: Cascades lookups to the IPFS Kademlia DHT"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -211,6 +214,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":vhs: Cascades lookups over legacy routing systems"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -461,6 +467,9 @@ repositories:
     delete_branch_on_merge: true
     description: Facade for lookups to dhstore that performs hashing and decryption
       on behalf of the client
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -923,6 +932,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":wave: Howdy from IPNI to Filecoin"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -1011,6 +1023,9 @@ repositories:
     delete_branch_on_merge: true
     description: "An observability tool for storetheindex content routing systems &
       providers"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -1093,6 +1108,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: 📢 Index Provider
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -1177,6 +1195,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":star:️ A load splitter for storetheindex :star:"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -1396,6 +1417,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: ":telescope: On the lookout for lookup quality"
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -1614,6 +1638,9 @@ repositories:
     default_branch: main
     delete_branch_on_merge: true
     description: A directory of CIDs
+    files:
+      .github/dependabot.yml:
+        content: .github/dependabot.yml
     has_discussions: true
     has_downloads: true
     has_issues: true
