@@ -10,7 +10,6 @@ members:
   member:
     - elijaharita
     - gammazero
-    - hannahhoward
     - honghaoq
     - ischasny
     - jacobheun
@@ -126,9 +125,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":knot: Cascades lookups to the IPFS Kademlia DHT"
@@ -213,9 +209,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":vhs: Cascades lookups over legacy routing systems"
@@ -383,9 +376,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":tophat: a gRPC service to advertise content onto IPNI"
@@ -468,9 +458,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Facade for lookups to dhstore that performs hashing and decryption
@@ -550,9 +537,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":lock_with_ink_pen: Service to store double hashed indexed records"
@@ -715,9 +699,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Core go datastructure of a cid index
@@ -795,9 +776,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: IPNI library implementation in Go
@@ -873,9 +851,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: Go implementation of IPNI Naming As Advertisement Protocol
@@ -951,9 +926,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":wave: Howdy from IPNI to Filecoin"
@@ -1044,9 +1016,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: "An observability tool for storetheindex content routing systems &
@@ -1133,9 +1102,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: 📢 Index Provider
@@ -1222,9 +1188,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":star:️ A load splitter for storetheindex :star:"
@@ -1311,9 +1274,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":computer: CLI tool for all things IPNI"
@@ -1453,9 +1413,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: ":telescope: On the lookout for lookup quality"
@@ -1677,9 +1634,6 @@ repositories:
           require_code_owner_reviews: false
           required_approving_review_count: 1
           restrict_dismissals: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: true
     description: A directory of CIDs
@@ -1789,9 +1743,6 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
-    collaborators:
-      push:
-        - web3-bot
     default_branch: main
     delete_branch_on_merge: false
     description: measure indexer and provider metrics
@@ -1872,7 +1823,6 @@ teams:
         - willscott
       member:
         - elijaharita
-        - hannahhoward
         - honghaoq
         - ischasny
         - jennijuju
