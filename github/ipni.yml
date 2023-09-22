@@ -924,6 +924,7 @@ repositories:
     teams:
       push:
         - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   herald:
