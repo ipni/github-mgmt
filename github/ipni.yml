@@ -1202,6 +1202,9 @@ repositories:
       dependencies:
         color: 0366d6
         description: Pull requests that update a dependency file
+      do-not-merge:
+        color: B325EC
+        description: Marks pull requests that are not yet ready / intended to be merged
       documentation:
         color: 0075ca
         description: Improvements or additions to documentation
