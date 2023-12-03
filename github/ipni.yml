@@ -691,8 +691,8 @@ repositories:
       push:
         - github-mgmt
     template:
-      owner: protocol
-      repository: github-mgmt-template
+      owner: ipdxco
+      repository: github-as-code
     visibility: public
     vulnerability_alerts: true
   go-indexer-core:
