@@ -939,7 +939,7 @@ repositories:
     archived: false
     auto_init: false
     default_branch: master
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     has_discussions: false
     has_downloads: true
     has_issues: true
@@ -950,6 +950,9 @@ repositories:
       bug:
         color: d73a4a
         description: Something isn't working
+      dependencies:
+        color: 0366d6
+        description: Pull requests that update a dependency file
       documentation:
         color: 0075ca
         description: Improvements or additions to documentation
@@ -1533,6 +1536,9 @@ repositories:
       enhancement:
         color: a2eeef
         description: New feature or request
+      go:
+        color: 16e2e2
+        description: Pull requests that update Go code
       good first issue:
         color: 7057ff
         description: Good for newcomers
@@ -1893,7 +1899,7 @@ repositories:
     archived: false
     auto_init: false
     default_branch: main
-    delete_branch_on_merge: false
+    delete_branch_on_merge: true
     description: measure indexer and provider metrics
     has_discussions: false
     has_downloads: true
