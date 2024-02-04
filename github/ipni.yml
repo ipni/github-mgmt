@@ -19,7 +19,6 @@ members:
     - rvagg
     - sti-bot
     - TorfinnOlsen
-    - web3-bot
 repositories:
   .github:
     advanced_security: false
@@ -2080,7 +2079,6 @@ teams:
     members:
       member:
         - sti-bot
-        - web3-bot
     privacy: closed
   contributors:
     description: Active contributors to the organisation.
