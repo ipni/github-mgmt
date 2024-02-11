@@ -835,6 +835,8 @@ repositories:
       question:
         color: d876e3
         description: Further information is requested
+      release:
+        color: 6E7F2E
       wontfix:
         color: ffffff
         description: This will not be worked on
@@ -1346,6 +1348,60 @@ repositories:
         - contributors
     visibility: public
     vulnerability_alerts: true
+  infra:
+    advanced_security: false
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: false
+    allow_update_branch: false
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: Infrastructure managed by IPNI team
+    has_discussions: false
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: false
+    is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: false
+    secret_scanning: false
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: private
+    vulnerability_alerts: true
   ipni-cli:
     advanced_security: false
     allow_auto_merge: false
@@ -1439,6 +1495,21 @@ repositories:
     allow_update_branch: false
     archived: false
     auto_init: false
+    branch_protection:
+      main:
+        allows_deletions: false
+        allows_force_pushes: false
+        blocks_creations: false
+        enforce_admins: false
+        lock_branch: false
+        require_conversation_resolution: false
+        require_signed_commits: false
+        required_linear_history: false
+        required_pull_request_reviews:
+          dismiss_stale_reviews: false
+          require_code_owner_reviews: false
+          required_approving_review_count: 1
+          restrict_dismissals: false
     default_branch: main
     delete_branch_on_merge: false
     description: ipni.io docs site repo
