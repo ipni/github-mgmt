@@ -3,12 +3,12 @@
 members:
   admin:
     - davidd8
-    - galargh
     - LaurenSpiegel
     - masih
     - willscott
   member:
     - elijaharita
+    - galargh
     - gammazero
     - honghaoq
     - ischasny
@@ -2134,7 +2134,6 @@ teams:
     members:
       maintainer:
         - davidd8
-        - galargh
         - masih
         - willscott
     privacy: closed
@@ -2142,6 +2141,7 @@ teams:
     create_default_maintainer: false
     members:
       member:
+        - ischasny
         - jacobheun
         - kylehuntsman
     privacy: closed
@@ -2156,12 +2156,12 @@ teams:
     members:
       maintainer:
         - davidd8
-        - galargh
         - gammazero
         - masih
         - willscott
       member:
         - elijaharita
+        - galargh
         - honghaoq
         - ischasny
         - jennijuju
@@ -2173,17 +2173,12 @@ teams:
     members:
       maintainer:
         - davidd8
-        - galargh
         - gammazero
-        - honghaoq
-        - ischasny
-        - LexLuthr
         - masih
-        - TorfinnOlsen
         - willscott
     privacy: secret
   ipdx:
     members:
-      maintainer:
+      member:
         - galargh
     privacy: closed
