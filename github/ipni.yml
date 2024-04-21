@@ -2,11 +2,11 @@
 
 members:
   admin:
-    - davidd8
     - LaurenSpiegel
     - masih
     - willscott
   member:
+    - davidd8
     - elijaharita
     - galargh
     - gammazero
@@ -2189,7 +2189,6 @@ teams:
     description: Admin Access to all repositories.
     members:
       maintainer:
-        - davidd8
         - masih
         - willscott
     privacy: closed
@@ -2197,9 +2196,12 @@ teams:
     create_default_maintainer: false
     members:
       member:
+        - davidd8
+        - elijaharita
         - ischasny
         - jacobheun
         - kylehuntsman
+        - TorfinnOlsen
     privacy: closed
   ci:
     description: Continuous integration non-humans.
@@ -2211,11 +2213,11 @@ teams:
     description: Active contributors to the organisation.
     members:
       maintainer:
-        - davidd8
         - gammazero
         - masih
         - willscott
       member:
+        - davidd8
         - elijaharita
         - galargh
         - ischasny
@@ -2227,7 +2229,6 @@ teams:
   github-mgmt:
     members:
       maintainer:
-        - davidd8
         - gammazero
         - masih
         - willscott
