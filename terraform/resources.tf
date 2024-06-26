@@ -102,7 +102,7 @@ resource "github_repository" "this" {
 
   lifecycle {
     ignore_changes  = []
-    prevent_destroy = false
+    prevent_destroy = true
   }
 }
 
