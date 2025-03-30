@@ -2,7 +2,6 @@
 
 members:
   admin:
-    - LaurenSpiegel
     - masih
     - willscott
   member:
@@ -14,6 +13,7 @@ members:
     - jacobheun
     - jennijuju
     - kylehuntsman
+    - LaurenSpiegel
     - LexLuthr
     - rvagg
     - sti-bot
