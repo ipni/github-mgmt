@@ -1662,6 +1662,60 @@ repositories:
       - lookup
     visibility: public
     vulnerability_alerts: true
+  relayx:
+    advanced_security: false
+    allow_auto_merge: false
+    allow_merge_commit: true
+    allow_rebase_merge: true
+    allow_squash_merge: true
+    allow_update_branch: false
+    archived: false
+    auto_init: false
+    default_branch: main
+    delete_branch_on_merge: true
+    description: ":satellite: Relays indexing over http"
+    has_discussions: false
+    has_downloads: true
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    is_template: false
+    labels:
+      bug:
+        color: d73a4a
+        description: Something isn't working
+      documentation:
+        color: 0075ca
+        description: Improvements or additions to documentation
+      duplicate:
+        color: cfd3d7
+        description: This issue or pull request already exists
+      enhancement:
+        color: a2eeef
+        description: New feature or request
+      good first issue:
+        color: 7057ff
+        description: Good for newcomers
+      help wanted:
+        color: "008672"
+        description: Extra attention is needed
+      invalid:
+        color: e4e669
+        description: This doesn't seem right
+      question:
+        color: d876e3
+        description: Further information is requested
+      wontfix:
+        color: ffffff
+        description: This will not be worked on
+    merge_commit_message: PR_TITLE
+    merge_commit_title: MERGE_MESSAGE
+    secret_scanning_push_protection: true
+    secret_scanning: true
+    squash_merge_commit_message: COMMIT_MESSAGES
+    squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    visibility: public
+    vulnerability_alerts: true
   roadmap:
     advanced_security: false
     allow_auto_merge: false
