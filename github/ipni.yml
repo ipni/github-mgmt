@@ -339,6 +339,9 @@ repositories:
       invalid:
         color: e4e669
         description: This doesn't seem right
+      javascript:
+        color: "168700"
+        description: Pull requests that update javascript code
       question:
         color: d876e3
         description: Further information is requested
