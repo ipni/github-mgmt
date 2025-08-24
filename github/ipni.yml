@@ -1326,6 +1326,9 @@ repositories:
       enhancement:
         color: a2eeef
         description: New feature or request
+      github_actions:
+        color: "000000"
+        description: Pull requests that update GitHub Actions code
       good first issue:
         color: 7057ff
         description: Good for newcomers
