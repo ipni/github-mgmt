@@ -1979,6 +1979,9 @@ repositories:
       env:prod:
         color: E8F929
         description: Production environment
+      github_actions:
+        color: "000000"
+        description: Pull requests that update GitHub Actions code
       go:
         color: 16e2e2
         description: Pull requests that update go code
