@@ -2268,6 +2268,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
 teams:
