@@ -1001,6 +1001,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   heyfil:
@@ -1416,6 +1422,9 @@ repositories:
     secret_scanning: false
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
     visibility: private
     vulnerability_alerts: true
   ipni-cli:
@@ -1575,6 +1584,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     template:
       owner: protocol
       repository: docs-starter
@@ -1720,12 +1735,6 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
-    teams:
-      admin:
-        - admin
-      push:
-        - ci
-        - contributors
     visibility: public
     vulnerability_alerts: true
   roadmap:
@@ -1915,6 +1924,12 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
     visibility: public
     vulnerability_alerts: true
   storetheindex:
@@ -2160,6 +2175,13 @@ repositories:
     secret_scanning: true
     squash_merge_commit_message: COMMIT_MESSAGES
     squash_merge_commit_title: COMMIT_OR_PR_TITLE
+    teams:
+      admin:
+        - admin
+      push:
+        - ci
+        - contributors
+        - ipdx
     visibility: public
     vulnerability_alerts: false
   website:
