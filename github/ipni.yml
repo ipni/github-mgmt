@@ -5,6 +5,7 @@ members:
     - masih
     - willscott
   member:
+    - byo
     - davidd8
     - elijaharita
     - galargh
@@ -2354,6 +2355,8 @@ teams:
         - gammazero
         - masih
         - willscott
+      member:
+        - byo
     privacy: closed
   github-mgmt:
     members:
